@@ -11,9 +11,10 @@ class PassportManager(models.Manager):
     def get_one_passport(self, username, password):
         try:
             passport = self.get(username=username, password=get_hash(password))
+            return passport
         except self.model.DoesNotExist:
             possport = None
-        return passport
+            # return passport
 
 
 class Passport(BaseModel):
