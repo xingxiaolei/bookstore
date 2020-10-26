@@ -1,7 +1,8 @@
 from django.shortcuts import render, redirect, reverse
 from django.http import JsonResponse
-from users.models import Passport
+from users.models import Passport, Address
 import re
+from utils.decorators import login_required
 
 def register(request):
     '''注册页面'''
@@ -74,7 +75,6 @@ def login_check(request):
         request.session['is_login'] = True
         request.session['user_name'] = username
         request.session['passport_id'] = passport.id
-        print(request.session.items())
         return jres
     else:
         #用户名密码错误
@@ -88,9 +88,20 @@ def logout(request):
     #跳转到首页
     return redirect(reverse('books:index'))
 
+@login_required
+def user(request):
+    '''用户中心-信息页'''
+    passport_id = request.session.get('passport_id')
+    addr = Address.objects.get_default_address(passport_id=passport_id)
 
+    books_li = []
+    context = {
+        'addr': addr,
+        'page': 'user',
+        'books_li': books_li
+    }
 
-
+    return render(request, 'users/user_center_info.html', context)
 
 
 
