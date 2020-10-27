@@ -12,6 +12,15 @@
     {# 顶部引入文件块 #}
     {% block topfiles %}
     {% endblock topfiles %}
+
+    {# 获取用户购物车中的商品数目 #}
+    {% block cart_count %}
+        <script>
+            $.get('/cart/count/', function (data) {
+                $('#show_count').html(data.res)
+            })
+        </script>
+    {% endblock cart_count %}
 </head>
 <body>
 {# 顶部欢迎信息块 #}
@@ -30,15 +39,23 @@
 					<span>|</span>
 					<a href="{% url 'user:user' %}">用户中心</a>
 					<span>|</span>
-					<a href="cart.html">我的购物车</a>
+					<a href="{% url 'cart:show' %}">我的购物车</a>
 					<span>|</span>
 					<a href="user_center_order.html">我的订单</a>
 				</div>
                 {% else %}
-				<div class="login_btn fl">
+                <div class="login_btn fl">
 					<a href="{% url 'user:login' %}">登录</a>
 					<span>|</span>
 					<a href="{% url 'user:register' %}">注册</a>
+				</div>
+                <div class="user_link fl">
+					<span>|</span>
+					<a href="{% url 'user:user' %}">用户中心</a>
+					<span>|</span>
+					<a href="{% url 'cart:show' %}">我的购物车</a>
+					<span>|</span>
+					<a href="user_center_order.html">我的订单</a>
 				</div>
                 {% endif %}
 
@@ -57,7 +74,7 @@
 		</div>
 		<div class="guest_cart fr">
 			<a href="#" class="cart_name fl">我的购物车</a>
-			<div class="book_count fl" id="show_count">1</div>
+			<div class="book_count fl" id="show_count">0</div>
 		</div>
 	</div>
 {% endblock search_bar %}

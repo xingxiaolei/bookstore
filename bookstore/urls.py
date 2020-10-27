@@ -22,4 +22,5 @@ urlpatterns = [
     url(r'^user/', include('users.urls', namespace='user')),
     url(r'^tinymce/', include('tinymce.urls')), #富文本编辑器
     url(r'^', include('books.urls', namespace='books')),
+    url(r'^cart/', include('cart.urls', namespace='cart'))
 ]
