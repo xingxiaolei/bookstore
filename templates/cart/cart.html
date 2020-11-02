@@ -3,6 +3,97 @@
 {% block search_bar %}
 {% endblock search_bar %}
 
+{% block topfiles %}
+    <script>
+    $(
+        function () {
+            update_total_price();
+            //计算所有被选中的商品总价，总数目和商品小计
+            function update_total_price() {
+                total_count = 0;
+                total_price = 0;
+                //获取所有被选中的商品所在的ul元素
+                $('.cart_list_td').find(':checked').parents('ul').each(function () {
+                    //计算商品小计
+                    res_dict = update_books_price($(this));
+
+                    total_count += res_dict.books_count;
+                    total_price += res_dict.books_amount
+                });
+
+                //设置商品总价和总数目
+                $('.settlements').find('em').text(total_price.toFixed(2));
+                $('.settlements').find('b').text(total_count)
+            }
+
+            //计算商品小计
+            function update_books_price(books_ul) {
+                //获取每一个商品的价格和数量
+                books_price = books_ul.children('.col05').text();
+                books_count = books_ul.find('.num_show').val();
+
+                //计算商品小计
+                books_price = parseFloat(books_price);
+                books_count = parseInt(books_count);
+                books_amount = books_price * books_count;
+
+                //设置商品的小计
+                books_ul.children('.col07').text(books_amount.toFixed(2)+'元');
+
+                return{
+                    'books_count': books_count,
+                    'books_amount': books_amount
+                }
+            }
+
+            //更新页面上购物车商品总数
+            function update_cart_count() {
+
+                $.get('/cart/count/', function (data) {
+                    //更新列表上方商品总数
+                    $('.total_count').children('em').text(data.res);
+                    //更新首页购物车商品总数
+                    $('show_count').html(data.res)
+                })
+            }
+
+            update_cart_count();
+
+            //购物车商品信息的删除
+            $('.cart_list_td').children('.col08').children('a').click(
+                function () {
+                    //获取删除商品的id
+                    books_ul = $(this).parents('ul');
+                    books_id = books_ul.find('.num_show').attr('books_id');
+                    csrf = $('input[name="csrfmiddlewaretoken"]').val();
+
+                    params = {
+                        'books_id': books_id,
+                        'csrfmiddlewaretoken': csrf
+                    };
+                    //发起ajax请求，访问/cart/del/
+                    $.post('/cart/del/', params, function (data) {
+                        if (data.res==3){
+                            //删除成功，移除商品对应的ul元素
+                            books_ul.remove();
+                            is_checked = books_ul.find(':checkbox').prop('checked');
+                            if (is_checked){
+                                update_total_price()
+                            }
+                            //更新页面购物车商品数量
+                            update_cart_count();
+
+                            //更新选择框状态
+                            $('.settlements').find(':checkbox').prop('checked', false)
+                        }
+                    })
+                }
+            )
+        }
+    )
+    </script>
+{% endblock topfiles %}
+
 {% block body %}
 	<div class="search_bar clearfix">
 		<a href="{% url 'books:index' %}" class="logo fl"><img src="/static/images/logo.png" style="width: 160px; height: 53px;"></a>
