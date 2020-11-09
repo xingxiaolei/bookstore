@@ -1,0 +1,539 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"d213a987-4f55-415a-818d-0cea149bd1ef\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/order/__init__.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/order/admin.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/order/apps.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/order/migrations/__init__.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/order/models.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/order/tests.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/order/views.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/bookstore.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/bookstore.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/templates/cart/cart.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/templates/cart/cart.html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"DjangoConsoleOptions\" custom-start-script=\"import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)\">\r\n    <option name=\"myCustomStartScript\" value=\"import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)\" />\r\n  </component>\r\n  <component name=\"FileEditorManager\">\r\n    <leaf SIDE_TABS_SIZE_LIMIT_KEY=\"300\">\r\n      <file pinned=\"false\" current-in-tab=\"false\">\r\n        <entry file=\"file://$PROJECT_DIR$/templates/base.html\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"646\">\r\n              <caret line=\"76\" column=\"53\" selection-start-line=\"76\" selection-start-column=\"43\" selection-end-line=\"76\" selection-end-column=\"53\" />\r\n              <folding>\r\n                <element signature=\"n#block#3;n#!!top\" />\r\n              </folding>\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n      <file pinned=\"false\" current-in-tab=\"true\">\r\n        <entry file=\"file://$PROJECT_DIR$/order/models.py\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"425\">\r\n              <caret line=\"25\" column=\"19\" selection-start-line=\"25\" selection-start-column=\"19\" selection-end-line=\"25\" selection-end-column=\"19\" />\r\n              <folding>\r\n                <element signature=\"e#0#28#0\" expanded=\"true\" />\r\n              </folding>\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n    </leaf>\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"FindInProjectRecents\">\r\n    <findStrings>\r\n      <find>show_count</find>\r\n      <find>num_show</find>\r\n    </findStrings>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"ROOT_SYNC\" value=\"DONT_SYNC\" />\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"IdeDocumentHistory\">\r\n    <option name=\"CHANGED_PATHS\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/bookstore/__init__.py\" />\r\n        <option value=\"$PROJECT_DIR$/../virtualEnvs/bookshop_env/Lib/site-packages/django/contrib/admin/widgets.py\" />\r\n        <option value=\"$PROJECT_DIR$/db/base_model.py\" />\r\n        <option value=\"$PROJECT_DIR$/utils/get_hash.py\" />\r\n        <option value=\"$PROJECT_DIR$/books/enums.py\" />\r\n        <option value=\"$PROJECT_DIR$/books/models.py\" />\r\n        <option value=\"$PROJECT_DIR$/books/admin.py\" />\r\n        <option value=\"$PROJECT_DIR$/templates/index.html\" />\r\n        <option value=\"$PROJECT_DIR$/templates/users/register.html\" />\r\n        <option value=\"$PROJECT_DIR$/templates/users/login.html\" />\r\n        <option value=\"$PROJECT_DIR$/books/urls.py\" />\r\n        <option value=\"$PROJECT_DIR$/templates/books/list.html\" />\r\n        <option value=\"$PROJECT_DIR$/books/views.py\" />\r\n        <option value=\"$PROJECT_DIR$/users/models.py\" />\r\n        <option value=\"$PROJECT_DIR$/users/urls.py\" />\r\n        <option value=\"$PROJECT_DIR$/templates/users/user_center_info.html\" />\r\n        <option value=\"$PROJECT_DIR$/utils/decorators.py\" />\r\n        <option value=\"$PROJECT_DIR$/users/views.py\" />\r\n        <option value=\"$PROJECT_DIR$/templates/books/index.html\" />\r\n        <option value=\"$PROJECT_DIR$/bookstore/settings.py\" />\r\n        <option value=\"$PROJECT_DIR$/bookstore/urls.py\" />\r\n        <option value=\"$PROJECT_DIR$/cart/urls.py\" />\r\n        <option value=\"$PROJECT_DIR$/templates/base.html\" />\r\n        <option value=\"$PROJECT_DIR$/templates/books/detail.html\" />\r\n        <option value=\"$PROJECT_DIR$/cart/views.py\" />\r\n        <option value=\"$PROJECT_DIR$/templates/cart/cart.html\" />\r\n        <option value=\"$PROJECT_DIR$/order/models.py\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectFrameBounds\">\r\n    <option name=\"x\" value=\"536\" />\r\n    <option name=\"y\" value=\"39\" />\r\n    <option name=\"width\" value=\"1553\" />\r\n    <option name=\"height\" value=\"912\" />\r\n  </component>\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectView\">\r\n    <navigator proportions=\"\" version=\"1\">\r\n      <foldersAlwaysOnTop value=\"true\" />\r\n    </navigator>\r\n    <panes>\r\n      <pane id=\"Scope\" />\r\n      <pane id=\"ProjectPane\">\r\n        <subPane>\r\n          <expand>\r\n            <path>\r\n              <item name=\"bookstore\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"bookstore\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n            <path>\r\n              <item name=\"bookstore\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"bookstore\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"db\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n            <path>\r\n              <item name=\"bookstore\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"bookstore\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"order\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n          </expand>\r\n          <select />\r\n        </subPane>\r\n      </pane>\r\n    </panes>\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"D:/Dev_tools/Git/bin/git.exe\" />\r\n    <property name=\"nodejs_interpreter_path.stuck_in_default_project\" value=\"undefined stuck path\" />\r\n    <property name=\"nodejs_npm_path_reset_for_default_project\" value=\"true\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"vcs.Git\" />\r\n  </component>\r\n  <component name=\"RunDashboard\">\r\n    <option name=\"ruleStates\">\r\n      <list>\r\n        <RuleState>\r\n          <option name=\"name\" value=\"ConfigurationTypeDashboardGroupingRule\" />\r\n        </RuleState>\r\n        <RuleState>\r\n          <option name=\"name\" value=\"StatusDashboardGroupingRule\" />\r\n        </RuleState>\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"bookstore\" type=\"Python.DjangoServer\" factoryName=\"Django server\">\r\n      <module name=\"bookstore\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"launchJavascriptDebuger\" value=\"false\" />\r\n      <option name=\"port\" value=\"8000\" />\r\n      <option name=\"host\" value=\"\" />\r\n      <option name=\"additionalOptions\" value=\"\" />\r\n      <option name=\"browserUrl\" value=\"\" />\r\n      <option name=\"runTestServer\" value=\"false\" />\r\n      <option name=\"runNoReload\" value=\"false\" />\r\n      <option name=\"useCustomRunCommand\" value=\"false\" />\r\n      <option name=\"customRunCommand\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"d213a987-4f55-415a-818d-0cea149bd1ef\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1603359307382</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1603359307382</updated>\r\n      <workItem from=\"1603359308892\" duration=\"5743000\" />\r\n      <workItem from=\"1603417136892\" duration=\"25298000\" />\r\n      <workItem from=\"1603676925319\" duration=\"23762000\" />\r\n      <workItem from=\"1603776655725\" duration=\"9637000\" />\r\n      <workItem from=\"1603849144178\" duration=\"13658000\" />\r\n      <workItem from=\"1604282109342\" duration=\"597000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"第6步完成\">\r\n      <created>1603446398114</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1603446398115</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"该 渲染购物车页面了\">\r\n      <created>1603711832347</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1603711832347</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"该 操作购物车删除了\">\r\n      <created>1603797473765</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1603797473765</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TimeTrackingManager\">\r\n    <option name=\"totallyTimeSpent\" value=\"88566000\" />\r\n  </component>\r\n  <component name=\"ToolWindowManager\">\r\n    <frame x=\"536\" y=\"39\" width=\"1553\" height=\"912\" extended-state=\"0\" />\r\n    <layout>\r\n      <window_info active=\"true\" content_ui=\"combo\" id=\"Project\" order=\"0\" visible=\"true\" weight=\"0.15271266\" />\r\n      <window_info id=\"Structure\" order=\"1\" side_tool=\"true\" weight=\"0.25\" />\r\n      <window_info id=\"Favorites\" order=\"2\" side_tool=\"true\" />\r\n      <window_info anchor=\"bottom\" id=\"Message\" order=\"0\" />\r\n      <window_info anchor=\"bottom\" id=\"Find\" order=\"1\" />\r\n      <window_info anchor=\"bottom\" id=\"Run\" order=\"2\" />\r\n      <window_info anchor=\"bottom\" id=\"Debug\" order=\"3\" weight=\"0.4\" />\r\n      <window_info anchor=\"bottom\" id=\"Cvs\" order=\"4\" weight=\"0.25\" />\r\n      <window_info anchor=\"bottom\" id=\"Inspection\" order=\"5\" weight=\"0.4\" />\r\n      <window_info anchor=\"bottom\" id=\"TODO\" order=\"6\" />\r\n      <window_info anchor=\"bottom\" id=\"Docker\" order=\"7\" show_stripe_button=\"false\" />\r\n      <window_info anchor=\"bottom\" id=\"Version Control\" order=\"8\" weight=\"0.32847682\" />\r\n      <window_info anchor=\"bottom\" id=\"Database Changes\" order=\"9\" />\r\n      <window_info anchor=\"bottom\" id=\"Event Log\" order=\"10\" side_tool=\"true\" />\r\n      <window_info anchor=\"bottom\" id=\"Terminal\" order=\"11\" weight=\"0.2781457\" />\r\n      <window_info anchor=\"bottom\" id=\"Python Console\" order=\"12\" />\r\n      <window_info anchor=\"right\" id=\"Commander\" internal_type=\"SLIDING\" order=\"0\" type=\"SLIDING\" weight=\"0.4\" />\r\n      <window_info anchor=\"right\" id=\"Ant Build\" order=\"1\" weight=\"0.25\" />\r\n      <window_info anchor=\"right\" content_ui=\"combo\" id=\"Hierarchy\" order=\"2\" weight=\"0.25\" />\r\n      <window_info anchor=\"right\" id=\"SciView\" order=\"3\" />\r\n      <window_info anchor=\"right\" id=\"Database\" order=\"4\" />\r\n    </layout>\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"1\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"RECENTLY_FILTERED_USER_GROUPS\">\r\n                <collection />\r\n              </option>\r\n              <option name=\"RECENTLY_FILTERED_BRANCH_GROUPS\">\r\n                <collection />\r\n              </option>\r\n              <option name=\"COLUMN_ORDER\">\r\n                <list>\r\n                  <option value=\"0\" />\r\n                  <option value=\"1\" />\r\n                  <option value=\"2\" />\r\n                  <option value=\"3\" />\r\n                </list>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_FILTERS\">\r\n      <map>\r\n        <entry key=\"Branch\">\r\n          <value>\r\n            <list />\r\n          </value>\r\n        </entry>\r\n        <entry key=\"User\">\r\n          <value>\r\n            <list />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"第6步完成\" />\r\n    <MESSAGE value=\"该 渲染购物车页面了\" />\r\n    <MESSAGE value=\"该 操作购物车删除了\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"该 操作购物车删除了\" />\r\n  </component>\r\n  <component name=\"editorHistoryManager\">\r\n    <entry file=\"file://$PROJECT_DIR$/../virtualEnvs/bookshop_env/Lib/site-packages/django/contrib/admin/widgets.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"341\">\r\n          <caret line=\"161\" column=\"34\" lean-forward=\"true\" selection-start-line=\"161\" selection-start-column=\"34\" selection-end-line=\"161\" selection-end-column=\"34\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/bookstore/__init__.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"17\">\r\n          <caret line=\"1\" column=\"28\" selection-start-line=\"1\" selection-start-column=\"28\" selection-end-line=\"1\" selection-end-column=\"28\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/utils/get_hash.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"102\">\r\n          <caret line=\"6\" column=\"25\" selection-start-line=\"6\" selection-start-column=\"25\" selection-end-line=\"6\" selection-end-column=\"25\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/static/js/register.js\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"-1538\" />\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/../virtualEnvs/bookshop_env/Lib/site-packages/django/db/models/fields/__init__.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"-2165\">\r\n          <caret line=\"1479\" column=\"31\" selection-start-line=\"1479\" selection-start-column=\"17\" selection-end-line=\"1479\" selection-end-column=\"31\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/static/css/main.css\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"54\">\r\n          <caret line=\"15\" column=\"20\" selection-start-line=\"15\" selection-start-column=\"10\" selection-end-line=\"15\" selection-end-column=\"20\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/templates/index.html\" />\r\n    <entry file=\"file://$PROJECT_DIR$/templates/users/register.html\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"318\">\r\n          <caret line=\"56\" lean-forward=\"true\" selection-start-line=\"56\" selection-end-line=\"56\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/templates/users/login.html\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"1037\">\r\n          <caret line=\"61\" column=\"30\" lean-forward=\"true\" selection-start-line=\"61\" selection-start-column=\"30\" selection-end-line=\"61\" selection-end-column=\"30\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/books/enums.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"136\">\r\n          <caret line=\"8\" column=\"10\" selection-start-line=\"8\" selection-start-column=\"4\" selection-end-line=\"8\" selection-end-column=\"10\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/../virtualEnvs/bookshop_env/Lib/site-packages/django/core/paginator.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"204\">\r\n          <caret line=\"129\" column=\"13\" selection-start-line=\"129\" selection-start-column=\"13\" selection-end-line=\"129\" selection-end-column=\"13\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/templates/books/list.html\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"384\">\r\n          <caret line=\"92\" lean-forward=\"true\" selection-start-line=\"92\" selection-end-line=\"92\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/books/views.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"267\">\r\n          <caret line=\"73\" column=\"16\" lean-forward=\"true\" selection-start-line=\"73\" selection-start-column=\"16\" selection-end-line=\"73\" selection-end-column=\"16\" />\r\n          <folding>\r\n            <element signature=\"e#0#35#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/books/urls.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"119\">\r\n          <caret line=\"7\" column=\"1\" selection-start-line=\"7\" selection-start-column=\"1\" selection-end-line=\"7\" selection-end-column=\"1\" />\r\n          <folding>\r\n            <element signature=\"e#0#32#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/../virtualEnvs/bookshop_env/Lib/site-packages/redis/client.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"276\">\r\n          <caret line=\"1988\" column=\"53\" selection-start-line=\"1988\" selection-start-column=\"8\" selection-end-line=\"1988\" selection-end-column=\"53\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/users/models.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"969\">\r\n          <caret line=\"59\" column=\"19\" selection-start-line=\"59\" selection-start-column=\"19\" selection-end-line=\"59\" selection-end-column=\"19\" />\r\n          <folding>\r\n            <element signature=\"e#0#28#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/users/views.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"1581\">\r\n          <caret line=\"97\" column=\"15\" selection-start-line=\"97\" selection-start-column=\"15\" selection-end-line=\"97\" selection-end-column=\"15\" />\r\n          <folding>\r\n            <element signature=\"e#0#54#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/bookstore/settings.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"2584\">\r\n          <caret line=\"152\" column=\"30\" selection-start-line=\"152\" selection-start-column=\"30\" selection-end-line=\"152\" selection-end-column=\"30\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/templates/books/index.html\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"1020\">\r\n          <caret line=\"60\" column=\"37\" selection-start-line=\"60\" selection-start-column=\"37\" selection-end-line=\"60\" selection-end-column=\"37\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/books/models.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"-17\">\r\n          <caret line=\"23\" column=\"30\" selection-start-line=\"23\" selection-start-column=\"24\" selection-end-line=\"23\" selection-end-column=\"30\" />\r\n          <folding>\r\n            <element signature=\"e#0#28#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/books/admin.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"51\">\r\n          <caret line=\"3\" column=\"26\" lean-forward=\"true\" selection-start-line=\"3\" selection-start-column=\"26\" selection-end-line=\"3\" selection-end-column=\"26\" />\r\n          <folding>\r\n            <element signature=\"e#0#32#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/cart/urls.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"119\">\r\n          <caret line=\"9\" column=\"1\" selection-start-line=\"9\" selection-start-column=\"1\" selection-end-line=\"9\" selection-end-column=\"1\" />\r\n          <folding>\r\n            <element signature=\"e#0#32#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/bookstore/urls.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"408\">\r\n          <caret line=\"24\" column=\"55\" selection-start-line=\"24\" selection-start-column=\"55\" selection-end-line=\"24\" selection-end-column=\"55\" />\r\n          <folding>\r\n            <element signature=\"e#643#675#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/templates/users/user_center_info.html\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"765\">\r\n          <caret line=\"45\" column=\"56\" selection-start-line=\"45\" selection-start-column=\"56\" selection-end-line=\"45\" selection-end-column=\"56\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/utils/decorators.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"136\">\r\n          <caret line=\"9\" column=\"18\" selection-start-line=\"9\" selection-start-column=\"18\" selection-end-line=\"9\" selection-end-column=\"18\" />\r\n          <folding>\r\n            <element signature=\"e#0#37#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/templates/books/detail.html\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"2907\">\r\n          <caret line=\"171\" selection-start-line=\"171\" selection-end-line=\"171\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/templates/cart/cart.html\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"-352\">\r\n          <caret line=\"257\" column=\"48\" selection-start-line=\"257\" selection-start-column=\"48\" selection-end-line=\"257\" selection-end-column=\"48\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/users/urls.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"51\">\r\n          <caret line=\"3\" column=\"11\" selection-start-line=\"3\" selection-end-line=\"3\" selection-end-column=\"11\" />\r\n          <folding>\r\n            <element signature=\"e#0#32#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/cart/views.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"499\">\r\n          <caret line=\"152\" column=\"22\" selection-start-line=\"152\" selection-start-column=\"14\" selection-end-line=\"152\" selection-end-column=\"22\" />\r\n          <folding>\r\n            <element signature=\"e#0#35#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/templates/base.html\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"646\">\r\n          <caret line=\"76\" column=\"53\" selection-start-line=\"76\" selection-start-column=\"43\" selection-end-line=\"76\" selection-end-column=\"53\" />\r\n          <folding>\r\n            <element signature=\"n#block#3;n#!!top\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/db/base_model.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"221\">\r\n          <caret line=\"13\" column=\"63\" selection-start-line=\"13\" selection-start-column=\"63\" selection-end-line=\"13\" selection-end-column=\"63\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/order/models.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"425\">\r\n          <caret line=\"25\" column=\"19\" selection-start-line=\"25\" selection-start-column=\"19\" selection-end-line=\"25\" selection-end-column=\"19\" />\r\n          <folding>\r\n            <element signature=\"e#0#28#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision cf591b7271a1dba5605915105c942ae746796f60)
++++ .idea/workspace.xml	(date 1604930166863)
+@@ -20,17 +20,9 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="d213a987-4f55-415a-818d-0cea149bd1ef" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/order/__init__.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/order/admin.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/order/apps.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/order/migrations/__init__.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/order/models.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/order/tests.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/order/views.py" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/bookstore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bookstore.iml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/templates/cart/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cart/cart.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -39,34 +31,6 @@
+   </component>
+   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+-  </component>
+-  <component name="FileEditorManager">
+-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/templates/base.html">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="646">
+-              <caret line="76" column="53" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="53" />
+-              <folding>
+-                <element signature="n#block#3;n#!!top" />
+-              </folding>
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file pinned="false" current-in-tab="true">
+-        <entry file="file://$PROJECT_DIR$/order/models.py">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="425">
+-              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+-              <folding>
+-                <element signature="e#0#28#0" expanded="true" />
+-              </folding>
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-    </leaf>
+   </component>
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+@@ -83,41 +47,13 @@
+     </findStrings>
+   </component>
+   <component name="Git.Settings">
+-    <option name="ROOT_SYNC" value="DONT_SYNC" />
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-  </component>
+-  <component name="IdeDocumentHistory">
+-    <option name="CHANGED_PATHS">
+-      <list>
+-        <option value="$PROJECT_DIR$/bookstore/__init__.py" />
+-        <option value="$PROJECT_DIR$/../virtualEnvs/bookshop_env/Lib/site-packages/django/contrib/admin/widgets.py" />
+-        <option value="$PROJECT_DIR$/db/base_model.py" />
+-        <option value="$PROJECT_DIR$/utils/get_hash.py" />
+-        <option value="$PROJECT_DIR$/books/enums.py" />
+-        <option value="$PROJECT_DIR$/books/models.py" />
+-        <option value="$PROJECT_DIR$/books/admin.py" />
+-        <option value="$PROJECT_DIR$/templates/index.html" />
+-        <option value="$PROJECT_DIR$/templates/users/register.html" />
+-        <option value="$PROJECT_DIR$/templates/users/login.html" />
+-        <option value="$PROJECT_DIR$/books/urls.py" />
+-        <option value="$PROJECT_DIR$/templates/books/list.html" />
+-        <option value="$PROJECT_DIR$/books/views.py" />
+-        <option value="$PROJECT_DIR$/users/models.py" />
+-        <option value="$PROJECT_DIR$/users/urls.py" />
+-        <option value="$PROJECT_DIR$/templates/users/user_center_info.html" />
+-        <option value="$PROJECT_DIR$/utils/decorators.py" />
+-        <option value="$PROJECT_DIR$/users/views.py" />
+-        <option value="$PROJECT_DIR$/templates/books/index.html" />
+-        <option value="$PROJECT_DIR$/bookstore/settings.py" />
+-        <option value="$PROJECT_DIR$/bookstore/urls.py" />
+-        <option value="$PROJECT_DIR$/cart/urls.py" />
+-        <option value="$PROJECT_DIR$/templates/base.html" />
+-        <option value="$PROJECT_DIR$/templates/books/detail.html" />
+-        <option value="$PROJECT_DIR$/cart/views.py" />
+-        <option value="$PROJECT_DIR$/templates/cart/cart.html" />
+-        <option value="$PROJECT_DIR$/order/models.py" />
+-      </list>
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="dev" />
++      </map>
+     </option>
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="ROOT_SYNC" value="DONT_SYNC" />
+   </component>
+   <component name="ProjectFrameBounds">
+     <option name="x" value="536" />
+@@ -126,55 +62,14 @@
+     <option name="height" value="912" />
+   </component>
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+-  <component name="ProjectView">
+-    <navigator proportions="" version="1">
+-      <foldersAlwaysOnTop value="true" />
+-    </navigator>
+-    <panes>
+-      <pane id="Scope" />
+-      <pane id="ProjectPane">
+-        <subPane>
+-          <expand>
+-            <path>
+-              <item name="bookstore" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="bookstore" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="bookstore" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="bookstore" type="462c0819:PsiDirectoryNode" />
+-              <item name="db" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="bookstore" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="bookstore" type="462c0819:PsiDirectoryNode" />
+-              <item name="order" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-          </expand>
+-          <select />
+-        </subPane>
+-      </pane>
+-    </panes>
+-  </component>
+   <component name="PropertiesComponent">
+     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+-    <property name="last_opened_file_path" value="D:/Dev_tools/Git/bin/git.exe" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Dev_tools/Git/bin/git.exe" />
+     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+-  </component>
+-  <component name="RunDashboard">
+-    <option name="ruleStates">
+-      <list>
+-        <RuleState>
+-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+-        </RuleState>
+-        <RuleState>
+-          <option name="name" value="StatusDashboardGroupingRule" />
+-        </RuleState>
+-      </list>
+-    </option>
++    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+   </component>
+   <component name="RunManager">
+     <configuration name="bookstore" type="Python.DjangoServer" factoryName="Django server">
+@@ -242,35 +137,6 @@
+     <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+-  <component name="TimeTrackingManager">
+-    <option name="totallyTimeSpent" value="88566000" />
+-  </component>
+-  <component name="ToolWindowManager">
+-    <frame x="536" y="39" width="1553" height="912" extended-state="0" />
+-    <layout>
+-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15271266" />
+-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+-      <window_info id="Favorites" order="2" side_tool="true" />
+-      <window_info anchor="bottom" id="Message" order="0" />
+-      <window_info anchor="bottom" id="Find" order="1" />
+-      <window_info anchor="bottom" id="Run" order="2" />
+-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+-      <window_info anchor="bottom" id="TODO" order="6" />
+-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32847682" />
+-      <window_info anchor="bottom" id="Database Changes" order="9" />
+-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2781457" />
+-      <window_info anchor="bottom" id="Python Console" order="12" />
+-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+-      <window_info anchor="right" id="SciView" order="3" />
+-      <window_info anchor="right" id="Database" order="4" />
+-    </layout>
+-  </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="1" />
+   </component>
+@@ -279,22 +145,7 @@
+       <map>
+         <entry key="MAIN">
+           <value>
+-            <State>
+-              <option name="RECENTLY_FILTERED_USER_GROUPS">
+-                <collection />
+-              </option>
+-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+-                <collection />
+-              </option>
+-              <option name="COLUMN_ORDER">
+-                <list>
+-                  <option value="0" />
+-                  <option value="1" />
+-                  <option value="2" />
+-                  <option value="3" />
+-                </list>
+-              </option>
+-            </State>
++            <State />
+           </value>
+         </entry>
+       </map>
+@@ -313,6 +164,7 @@
+         </entry>
+       </map>
+     </option>
++    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="第6步完成" />
+@@ -320,261 +172,10 @@
+     <MESSAGE value="该 操作购物车删除了" />
+     <option name="LAST_COMMIT_MESSAGE" value="该 操作购物车删除了" />
+   </component>
+-  <component name="editorHistoryManager">
+-    <entry file="file://$PROJECT_DIR$/../virtualEnvs/bookshop_env/Lib/site-packages/django/contrib/admin/widgets.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="341">
+-          <caret line="161" column="34" lean-forward="true" selection-start-line="161" selection-start-column="34" selection-end-line="161" selection-end-column="34" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/bookstore/__init__.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="17">
+-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/utils/get_hash.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="102">
+-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/static/js/register.js">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="-1538" />
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/../virtualEnvs/bookshop_env/Lib/site-packages/django/db/models/fields/__init__.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="-2165">
+-          <caret line="1479" column="31" selection-start-line="1479" selection-start-column="17" selection-end-line="1479" selection-end-column="31" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/static/css/main.css">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="54">
+-          <caret line="15" column="20" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="20" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/templates/index.html" />
+-    <entry file="file://$PROJECT_DIR$/templates/users/register.html">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="318">
+-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/templates/users/login.html">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="1037">
+-          <caret line="61" column="30" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/books/enums.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="136">
+-          <caret line="8" column="10" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="10" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/../virtualEnvs/bookshop_env/Lib/site-packages/django/core/paginator.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="204">
+-          <caret line="129" column="13" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/templates/books/list.html">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="384">
+-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/books/views.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="267">
+-          <caret line="73" column="16" lean-forward="true" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+-          <folding>
+-            <element signature="e#0#35#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/books/urls.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="119">
+-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+-          <folding>
+-            <element signature="e#0#32#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/../virtualEnvs/bookshop_env/Lib/site-packages/redis/client.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="276">
+-          <caret line="1988" column="53" selection-start-line="1988" selection-start-column="8" selection-end-line="1988" selection-end-column="53" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/users/models.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="969">
+-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+-          <folding>
+-            <element signature="e#0#28#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/users/views.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="1581">
+-          <caret line="97" column="15" selection-start-line="97" selection-start-column="15" selection-end-line="97" selection-end-column="15" />
+-          <folding>
+-            <element signature="e#0#54#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/bookstore/settings.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="2584">
+-          <caret line="152" column="30" selection-start-line="152" selection-start-column="30" selection-end-line="152" selection-end-column="30" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/templates/books/index.html">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="1020">
+-          <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/books/models.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="-17">
+-          <caret line="23" column="30" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="30" />
+-          <folding>
+-            <element signature="e#0#28#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/books/admin.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="51">
+-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+-          <folding>
+-            <element signature="e#0#32#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/cart/urls.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="119">
+-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+-          <folding>
+-            <element signature="e#0#32#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/bookstore/urls.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="408">
+-          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+-          <folding>
+-            <element signature="e#643#675#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/templates/users/user_center_info.html">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="765">
+-          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/utils/decorators.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="136">
+-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+-          <folding>
+-            <element signature="e#0#37#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/templates/books/detail.html">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="2907">
+-          <caret line="171" selection-start-line="171" selection-end-line="171" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/templates/cart/cart.html">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="-352">
+-          <caret line="257" column="48" selection-start-line="257" selection-start-column="48" selection-end-line="257" selection-end-column="48" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/users/urls.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="51">
+-          <caret line="3" column="11" selection-start-line="3" selection-end-line="3" selection-end-column="11" />
+-          <folding>
+-            <element signature="e#0#32#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/cart/views.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="499">
+-          <caret line="152" column="22" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="22" />
+-          <folding>
+-            <element signature="e#0#35#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/templates/base.html">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="646">
+-          <caret line="76" column="53" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="53" />
+-          <folding>
+-            <element signature="n#block#3;n#!!top" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/db/base_model.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="221">
+-          <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/order/models.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="425">
+-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+-          <folding>
+-            <element signature="e#0#28#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
++  <component name="WindowStateProjectService">
++    <state x="184" y="8" key="SettingsEditor" timestamp="1604929623983">
++      <screen x="0" y="0" width="1366" height="728" />
++    </state>
++    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604929623983" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/bookstore.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"PYTHON_MODULE\" version=\"4\">\r\n  <component name=\"FacetManager\">\r\n    <facet type=\"django\" name=\"Django\">\r\n      <configuration>\r\n        <option name=\"rootFolder\" value=\"$MODULE_DIR$\" />\r\n        <option name=\"settingsModule\" value=\"bookstore/settings.py\" />\r\n        <option name=\"manageScript\" value=\"$MODULE_DIR$/manage.py\" />\r\n        <option name=\"environment\" value=\"&lt;map/&gt;\" />\r\n        <option name=\"doNotUseTestRunner\" value=\"false\" />\r\n        <option name=\"trackFilePattern\" value=\"migrations\" />\r\n      </configuration>\r\n    </facet>\r\n  </component>\r\n  <component name=\"NewModuleRootManager\">\r\n    <content url=\"file://$MODULE_DIR$\" />\r\n    <orderEntry type=\"jdk\" jdkName=\"Python 3.7 (bookshop_env)\" jdkType=\"Python SDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n  <component name=\"TemplatesService\">\r\n    <option name=\"TEMPLATE_CONFIGURATION\" value=\"Django\" />\r\n  </component>\r\n  <component name=\"TestRunnerService\">\r\n    <option name=\"projectConfiguration\" value=\"pytest\" />\r\n    <option name=\"PROJECT_TEST_RUNNER\" value=\"pytest\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/bookstore.iml	(revision cf591b7271a1dba5605915105c942ae746796f60)
++++ .idea/bookstore.iml	(date 1604929624747)
+@@ -14,7 +14,7 @@
+   </component>
+   <component name="NewModuleRootManager">
+     <content url="file://$MODULE_DIR$" />
+-    <orderEntry type="jdk" jdkName="Python 3.7 (bookshop_env)" jdkType="Python SDK" />
++    <orderEntry type="jdk" jdkName="Python 3.7 (bookstore_env)" jdkType="Python SDK" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+   <component name="TemplatesService">
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"JavaScriptSettings\">\r\n    <option name=\"languageLevel\" value=\"ES6\" />\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" project-jdk-name=\"Python 3.7 (bookshop_env)\" project-jdk-type=\"Python SDK\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(revision cf591b7271a1dba5605915105c942ae746796f60)
++++ .idea/misc.xml	(date 1604929624870)
+@@ -3,5 +3,5 @@
+   <component name="JavaScriptSettings">
+     <option name="languageLevel" value="ES6" />
+   </component>
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7 (bookshop_env)" project-jdk-type="Python SDK" />
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7 (bookstore_env)" project-jdk-type="Python SDK" />
+ </project>
+\ No newline at end of file
