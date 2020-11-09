@@ -89,6 +89,50 @@
                     })
                 }
             )
+
+            //全选和全不选
+            $('.settlements').find(':checkbox').change(function () {
+                //获取全选checkbox的选中状态
+                is_checked = $(this).prop('checked')
+
+                //遍历所有商品对应的checkbox,设置checked属性和全选checkbox一致
+                $('.cart_list_td').find(':checkbox').each(function () {
+                    $(this).prop('checked', is_checked)
+                })
+                //更新商品的信息
+                update_total_price()
+            })
+
+            //商品对应的checkbox状态发生改变时，全选checkbox跟着改变
+            $('.cart_list_td').find(':checkbox').change(function () {
+                //获取所有商品对应的checkbox的数目
+                all_len = $('.cart_list_td').find(':checkbox').length
+
+                //获取所有被选中商品的checkbox的数目
+                checked_len = $('.cart_list_td').find(':checked').length
+
+                if (checked_len < all_len){
+                    $('.settlements').find(':checkbox').prop('checked', false)
+                }
+                else {
+                    $('.settlements').find(':checkbox').prop('checked', true)
+                }
+                //更新商品信息
+                update_total_price()
+            })
+
+            //购物车商品数目的增加
+            $('.add').click(function () {
+                //获取商品的数目和id
+                books_count = $(this).next().val()
+                books_id = $(this).next().attr('books_id')
+
+                //更新购物车信息
+                books_count = parseInt(books_count) + 1
+                update_remote_cart_info(books_id, books_count)
+
+
+            })
         }
     )
     </script>
