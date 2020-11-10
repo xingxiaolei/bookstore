@@ -94,6 +94,78 @@ def order_commit(request):
     if int(pay_method) not in OrderInfo.PAY_METHODS_ENUM.values():
         return JsonResponse({'res': 3, 'errmsg': '不支持的支付方式'})
 
+    #订单创建
+    #组织订单创建
+    passport_id = request.session.get('passport_id')
+    #订单id：20171029110830+用户的id
+    order_id = datetime.now().strftime('%Y%m%d%H%M%S') + str(passport_id)
+    #运费
+    transit_price = 10
+    #订单商品总数和总金额
+    total_count = 0
+    total_price = 0
+
+    #创建一个保存点
+    sid = transaction.savepoint()
+    try:
+        #向订单信息表中添加一条记录
+        order = OrderInfo.objects.create(order_id=order_id,
+                                         passport_id=passport_id,
+                                         addr_id=addr_id,
+                                         total_count=total_count,
+                                         total_price=total_price,
+                                         transit_price=transit_price,
+                                         pay_method=pay_method)
+        #向订单商品表中添加订单商品的记录
+        books_ids = books_ids.split(',')
+        conn = get_redis_connection('default')
+        cart_key = f'cart_{passport_id}'
+
+        #遍历获取用户购买的商品信息
+        for id in books_ids:
+            books = Books.objects.get_books_by_id(books_id=id)
+            if books is None:
+                transaction.savepoint_rollback(sid)
+                return JsonResponse({'res': 4, 'errmsg': '商品信息错误'})
+
+            #获取用户购买的商品数目
+            count = conn.hget(cart_key, id)
+
+            #判断商品的库存
+            if int(count) > books.stock:
+                transaction.savepoint_rollback(sid)
+                return JsonResponse({'res': 5, 'errmsg':'商品库存不足'})
+
+            #创建一条订单商品记录
+            OrderBooks.objects.create(order_id=order_id,
+                                      books_id=id,
+                                      count=count,
+                                      price=books.price)
+            #增加商品的销量， 减少库存
+            books.sales += int(count)
+            books.stock -= int(count)
+            books.save()
+
+            #累计计算商品的总数目和总额
+            total_count += int(count)
+            total_price += int(count) * books.price
+
+        #更新订单的商品总数目和总金额
+        order.total_count = total_count
+        order.total_price = total_price
+
+    except Exception as e:
+        #操作数据库出错，进行回滚
+        transaction.savepoint_rollback(sid)
+        return JsonResponse({'res': 7, 'errmsg': '服务器错误'})
+
+    #清除购物车对应记录
+    conn.hdel(cart_key, *books_ids)
+
+    #事务提交
+    transaction.savepoint_commit(sid)
+    #返回应答
+    return JsonResponse({'res': 6})
 
 
 
