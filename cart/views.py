@@ -63,6 +63,8 @@ def cart_count(request):
     for i in res_list:
         res += int(i)
 
+    print(">>>",res)
+
     return JsonResponse({'res': res})
 
 @login_required
@@ -98,7 +100,6 @@ def cart_show(request):
         'total_price': total_price
     }
 
-    print(res_dict.items())
     return render(request, 'cart/cart.html', context)
 
 @login_required

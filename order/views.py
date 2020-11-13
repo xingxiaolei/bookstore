@@ -18,7 +18,7 @@ def order_place(request):
 
     #接收数据
     books_ids = request.POST.getlist('books_ids')
-
+    print('ids',books_ids)
     #校验数据
     if not all(books_ids):
         #跳转回购物车页面
@@ -154,6 +154,7 @@ def order_commit(request):
         #更新订单的商品总数目和总金额
         order.total_count = total_count
         order.total_price = total_price
+        order.save()
 
     except Exception as e:
         #操作数据库出错，进行回滚

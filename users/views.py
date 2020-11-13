@@ -238,6 +238,3 @@ def order(request, page):
 
 
 
-
-
-
