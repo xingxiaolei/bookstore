@@ -23,5 +23,7 @@ urlpatterns = [
     url(r'^tinymce/', include('tinymce.urls')), #富文本编辑器
     url(r'^', include('books.urls', namespace='books')),
     url(r'^cart/', include('cart.urls', namespace='cart')),
-    url(r'^order/', include('order.urls', namespace='order'))
+    url(r'^order/', include('order.urls', namespace='order')),
+    url(r'^search/', include('haystack.urls')),
+
 ]

@@ -10,6 +10,7 @@ from django_redis import get_redis_connection
 @login_required
 def cart_add(request):
     '''向购物车添加数据'''
+
     #接收数据
     books_id = request.POST.get('books_id')
     books_count = request.POST.get('books_count')
@@ -62,8 +63,6 @@ def cart_count(request):
 
     for i in res_list:
         res += int(i)
-
-    print(">>>",res)
 
     return JsonResponse({'res': res})
 
